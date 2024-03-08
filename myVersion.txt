@@ -12,4 +12,12 @@
     (d) remote is created. we can push our local repository onto remote repository which is called origin.
     (e) $: git push -u origin main
     (f) -u (u flag) link both local and remote repository and the main is default branch.
-    
+
+Note: if any file that you don't want to commit after "git add": "git rm -cached -r ." will remove all from git add(stagging area)
+
+5.  .gitignore:
+    (a) create a new file $touch .gitignore
+    (b) add the file name you want to ignore in the .gitignore file.
+    (c) #comment in the .gitignore file.
+    (d) (*.txt) means all files with .txt will ignored
+    $ git add . 
