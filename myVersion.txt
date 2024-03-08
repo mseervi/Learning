@@ -4,3 +4,12 @@
     (a) Git, Github and version control
     (b) Axios
     (c) Express Route
+
+4. git romote directory:
+    (a) Create a git repository at github.com
+    (b) cofy the https repository link
+    (c) in your working directory $: git remote add origin <paste link>
+    (d) remote is created. we can push our local repository onto remote repository which is called origin.
+    (e) $: git push -u origin main
+    (f) -u (u flag) link both local and remote repository and the main is default branch.
+    
