@@ -21,3 +21,8 @@ Note: if any file that you don't want to commit after "git add": "git rm -cached
     (c) #comment in the .gitignore file.
     (d) (*.txt) means all files with .txt will ignored
     $ git add . 
+
+6. Git clone:
+    (a) copy of remote into local
+    (b) $ git clone url
+    (c) url for example = "https://github.com/acc/project.com"
